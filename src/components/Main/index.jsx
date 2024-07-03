@@ -185,8 +185,6 @@ export default function Main() {
                             className={`${styles.cc} ${styles.front}`}
                             style={{
                     
-                            
-                            
                             }}
                         />
                     </div>
