@@ -1,0 +1,184 @@
+.mainPage {
+    background-color: purple;
+    z-index: 999;
+}
+.mCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    background-color: #E1E1E1;
+    filter: invert(1);
+}	
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+}
+.sectionMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 520px;
+    height: 870px;
+    margin-bottom: 1rem;
+
+}
+.menuCard1 {
+    border: 1px solid #1e1e1e;
+    width: 380px;
+    height: 90%;
+
+}
+.menuCardsStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card0 {
+    filter: invert(1);
+    background-image: url('../../assets/bannerX1280B.svg');
+    height: 100%;
+    width: 100%;
+}
+.card1, .card3, .card2, .card4   {
+    min-height: 139px;
+    min-width: 139px;
+    background-color: #E1E1E1;
+    border: 1px solid #1e1e1e;
+}
+.line {
+    width: 1px;
+    height: 1rem;
+    z-index: 999;
+    background-color: #1e1e1e;
+}
+
+.sectionTitle {
+    display:flex;
+    top: -1px;
+    position: sticky;
+    background-color: #1e1e1e;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    font-family: "Chivo", sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    z-index: 999;
+}
+
+.sectionStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.step1Grid, .step2Grid, .step3Grid, .step4Grid{
+    display: grid;
+    grid-template-columns: 1fr 100%;
+    max-width: 520px;
+}
+.step1Img, .step2Img, .step3Img, .step4Img{
+    width: 139px;
+    height: 139px;
+    background-color: white;
+    border: 1px solid #1e1e1e;
+    z-index: 5;
+}
+
+.step1Text, .step2Text, .step3Text, .step4Text{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 100;
+    z-index: 1;
+    background-color: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    padding: 1rem;
+    color: white;
+}
+
+.step1Line, .step2Line, .step3Line, .step4Line{
+    width: 100%;
+    height: 37rem;
+    background-color: #1e1e1e;
+    margin: auto;
+    z-index: 1;
+}
+
+.imgSteps {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.step1Content, .step2Content, .step3Content, .step4Content{
+    border: 1px solid #1e1e1e;
+    background-color: white;
+    margin: 2rem 0 2rem 0;
+    min-height: 33rem;
+}
+
+.cc {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+
+.c1, .c2, .c3, .c4{
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+
+  .front {
+    
+    background-size: cover;
+  }
+  .back {
+    background-size: cover;
+    background-color: #1e1e1e;
+    background-image: url('../../assets/bannerX1280.svg');
+  }
+  
+  .front1, .front2, .front3, .front4 {
+    background-size: cover;
+    
+  }
+  .back1, .back2, .back3, .back4 {
+    background-size: cover;
+    background-color: #1e1e1e;
+  } 
+  
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .sectionTitle div:first-child {
+    position: -webkit-sticky; /* Para compatibilidade com o Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Garante que fique acima de outros conteúdos */
+}
+
+.projetar, .construir, .publicar {
+    padding: 0 1rem 0 1rem;
+}

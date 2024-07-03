@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo {
+    top: 10vh;
+    width: 180px;
+    margin-right: 10px;
+    padding: 0.3rem 0 0.3rem 0;
+    border-bottom: 1px solid white;
+    background-color: white;
+    z-index: 9999;
+}
