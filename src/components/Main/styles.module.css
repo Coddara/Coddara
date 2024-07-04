@@ -32,7 +32,6 @@
 
 }
 .menuCard1 {
-    border: 1px solid #1e1e1e;
     width: 380px;
     height: 90%;
 
@@ -46,6 +45,7 @@
 .card0 {
     filter: invert(1);
     background-image: url('../../assets/bannerX1280B.svg');
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
@@ -66,11 +66,10 @@
     display:flex;
     top: -1px;
     position: sticky;
-    background-color: #1e1e1e;
+    background-color: #E1E1E1;
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     font-family: "Chivo", sans-serif;
     font-weight: 100;
@@ -151,8 +150,8 @@
   }
 
   .front {
-    
-    background-size: cover;
+    background-size: contain;
+    border: 1px solid  #E1E1E1;
   }
   .back {
     background-size: cover;

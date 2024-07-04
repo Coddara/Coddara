@@ -282,7 +282,7 @@ export default function Main() {
                 <div className={styles.step2}>
                     <div className={styles.step2Grid}>
                         <div className={styles.step2Img}><img src={reactLogo} alt="" className={styles.imgSteps}/></div>
-                        <animated.div ref={ref3} style={propsTitle2} className={styles.step2Text}>Desenvolvimento  de landpages de forma escalável, garantido a adição de novas funcionalidades de forma ágil e organizada com React.</animated.div>
+                        <animated.div ref={ref3} style={propsTitle2} className={styles.step2Text}>Desenvolvimento  de landpages de forma escalável, garantido a adição de novas funcionalidades de forma ágil e organizada com frameworks.</animated.div>
                         <animated.div ref={refLine2} style={propsLine2} className={styles.step2Line}>
                 
                         </animated.div>
@@ -294,7 +294,7 @@ export default function Main() {
                 <div className={styles.step3}>
                     <div className={styles.step3Grid}>
                         <div className={styles.step3Img}><img src={vercelLogo} alt="" className={styles.imgSteps}/></div>
-                        <animated.div ref={ref4} style={propsTitle3} className={styles.step3Text}>Publique o seu site e compartilhe com o mundo, de forma rápida e fácil.</animated.div>
+                        <animated.div ref={ref4} style={propsTitle3} className={styles.step3Text}>Uma vez publicada, a pagina é monitorada com ferramentas que visam rastrear movimentações e o desempenho em situações adversas.</animated.div>
                         <animated.div ref={refLine3} style={propsLine3} className={styles.step3Line}>
                 
                         </animated.div>
